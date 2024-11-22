@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87B01C52-9EF6-492F-89EE-0FE79EC8DCC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{468BA8B3-E01D-45E3-A33B-437307795726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.DnsUpdater", "src\RedShirt.DnsUpdater\RedShirt.DnsUpdater.csproj", "{FEDA7F36-B6FF-4C99-B8C6-0A5ED55F389C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.DnsUpdater.Core", "src\RedShirt.DnsUpdater.Core\RedShirt.DnsUpdater.Core.csproj", "{47330B7A-1ECB-47D1-A191-97AB785ECED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.DnsUpdater.Implementation.PublicAddress", "src\RedShirt.DnsUpdater.Implementation.PublicAddress\RedShirt.DnsUpdater.Implementation.PublicAddress.csproj", "{422C8485-5215-4C27-B026-3337EA5E14A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.DnsUpdater.Implementation.DnsSetter", "src\RedShirt.DnsUpdater.Implementation.DnsSetter\RedShirt.DnsUpdater.Implementation.DnsSetter.csproj", "{F905D2A9-F50A-4A01-9412-93088330C687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.DnsUpdater.IntegrationTests", "test\RedShirt.DnsUpdater.IntegrationTests\RedShirt.DnsUpdater.IntegrationTests.csproj", "{E856212A-5546-434C-9021-9DACC516BBD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.DnsUpdater.UnitTests", "test\RedShirt.DnsUpdater.UnitTests\RedShirt.DnsUpdater.UnitTests.csproj", "{B3184A7D-C57E-4E70-A164-365B98C00E32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{A0CC61F9-F60C-4187-9FFF-9F2750DAC233}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEDA7F36-B6FF-4C99-B8C6-0A5ED55F389C} = {87B01C52-9EF6-492F-89EE-0FE79EC8DCC4}
+		{47330B7A-1ECB-47D1-A191-97AB785ECED9} = {87B01C52-9EF6-492F-89EE-0FE79EC8DCC4}
+		{422C8485-5215-4C27-B026-3337EA5E14A2} = {87B01C52-9EF6-492F-89EE-0FE79EC8DCC4}
+		{F905D2A9-F50A-4A01-9412-93088330C687} = {87B01C52-9EF6-492F-89EE-0FE79EC8DCC4}
+		{E856212A-5546-434C-9021-9DACC516BBD5} = {468BA8B3-E01D-45E3-A33B-437307795726}
+		{B3184A7D-C57E-4E70-A164-365B98C00E32} = {468BA8B3-E01D-45E3-A33B-437307795726}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDA7F36-B6FF-4C99-B8C6-0A5ED55F389C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDA7F36-B6FF-4C99-B8C6-0A5ED55F389C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDA7F36-B6FF-4C99-B8C6-0A5ED55F389C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDA7F36-B6FF-4C99-B8C6-0A5ED55F389C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47330B7A-1ECB-47D1-A191-97AB785ECED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47330B7A-1ECB-47D1-A191-97AB785ECED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47330B7A-1ECB-47D1-A191-97AB785ECED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47330B7A-1ECB-47D1-A191-97AB785ECED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422C8485-5215-4C27-B026-3337EA5E14A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422C8485-5215-4C27-B026-3337EA5E14A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422C8485-5215-4C27-B026-3337EA5E14A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422C8485-5215-4C27-B026-3337EA5E14A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F905D2A9-F50A-4A01-9412-93088330C687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F905D2A9-F50A-4A01-9412-93088330C687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F905D2A9-F50A-4A01-9412-93088330C687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F905D2A9-F50A-4A01-9412-93088330C687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E856212A-5546-434C-9021-9DACC516BBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E856212A-5546-434C-9021-9DACC516BBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E856212A-5546-434C-9021-9DACC516BBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E856212A-5546-434C-9021-9DACC516BBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3184A7D-C57E-4E70-A164-365B98C00E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3184A7D-C57E-4E70-A164-365B98C00E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3184A7D-C57E-4E70-A164-365B98C00E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3184A7D-C57E-4E70-A164-365B98C00E32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
